@@ -605,6 +605,9 @@ video {
 .bg-\[url\(\'\/src\/images\/weatherbg\.jpg\'\)\] {
   background-image: url('/src/images/weatherbg.jpg');
 }
+.bg-\[url\(\'\.\.\/src\/images\/weatherbg\.jpg\'\)\] {
+  background-image: url('../src/images/weatherbg.jpg');
+}
 .from-cyan-400 {
   --tw-gradient-from: #22d3ee var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(34 211 238 / 0) var(--tw-gradient-to-position);
