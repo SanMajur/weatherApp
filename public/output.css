@@ -489,41 +489,14 @@ video {
   margin-left: auto;
   margin-right: auto;
 }
-.-mt-2 {
-  margin-top: -0.5rem;
-}
-.-mt-2\.5 {
-  margin-top: -0.625rem;
-}
-.mb-0 {
-  margin-bottom: 0px;
-}
-.mr-4 {
-  margin-right: 1rem;
-}
-.mt-12 {
-  margin-top: 3rem;
-}
-.mt-24 {
-  margin-top: 6rem;
-}
-.mt-8 {
-  margin-top: 2rem;
-}
-.mr-2 {
-  margin-right: 0.5rem;
-}
-.mr-2\.5 {
-  margin-right: 0.625rem;
-}
 .-mt-1 {
   margin-top: -0.25rem;
 }
 .-mt-1\.5 {
   margin-top: -0.375rem;
 }
-.mt-4 {
-  margin-top: 1rem;
+.mb-0 {
+  margin-bottom: 0px;
 }
 .ml-2 {
   margin-left: 0.5rem;
@@ -531,11 +504,32 @@ video {
 .ml-2\.5 {
   margin-left: 0.625rem;
 }
+.mr-2 {
+  margin-right: 0.5rem;
+}
+.mr-2\.5 {
+  margin-right: 0.625rem;
+}
+.mr-4 {
+  margin-right: 1rem;
+}
+.mt-12 {
+  margin-top: 3rem;
+}
 .mt-2 {
   margin-top: 0.5rem;
 }
 .mt-2\.5 {
   margin-top: 0.625rem;
+}
+.mt-24 {
+  margin-top: 6rem;
+}
+.mt-4 {
+  margin-top: 1rem;
+}
+.mt-8 {
+  margin-top: 2rem;
 }
 .block {
   display: block;
@@ -548,6 +542,9 @@ video {
 }
 .h-14 {
   height: 3.5rem;
+}
+.w-10 {
+  width: 2.5rem;
 }
 .w-11\/12 {
   width: 91.666667%;
@@ -563,9 +560,6 @@ video {
 }
 .w-full {
   width: 100%;
-}
-.w-10 {
-  width: 2.5rem;
 }
 .max-w-md {
   max-width: 28rem;
@@ -599,22 +593,8 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
 }
-.bg-gradient-to-r {
-  background-image: linear-gradient(to right, var(--tw-gradient-stops));
-}
-.bg-\[url\(\'\/src\/images\/weatherbg\.jpg\'\)\] {
-  background-image: url('/src/images/weatherbg.jpg');
-}
 .bg-\[url\(\'\.\.\/src\/images\/weatherbg\.jpg\'\)\] {
   background-image: url('../src/images/weatherbg.jpg');
-}
-.from-cyan-400 {
-  --tw-gradient-from: #22d3ee var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(34 211 238 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-.to-cyan-600 {
-  --tw-gradient-to: #0891b2 var(--tw-gradient-to-position);
 }
 .px-5 {
   padding-left: 1.25rem;
@@ -640,11 +620,19 @@ video {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 .text-left {
   text-align: left;
 }
 .text-center {
   text-align: center;
+}
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 .text-5xl {
   font-size: 3rem;
@@ -657,10 +645,6 @@ video {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
-}
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 .text-sm {
   font-size: 0.875rem;
@@ -676,19 +660,31 @@ video {
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
 }
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
 .text-red-800 {
   --tw-text-opacity: 1;
   color: rgb(153 27 27 / var(--tw-text-opacity));
 }
-.text-red-400 {
+.text-white {
   --tw-text-opacity: 1;
-  color: rgb(248 113 113 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+@media (min-width: 768px) {
+
+  .md\:mr-4 {
+    margin-right: 1rem;
+  }
+
+  .md\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .md\:px-9 {
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+  }
 }
